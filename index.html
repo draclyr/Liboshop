@@ -88,8 +88,7 @@
     </div>
     <!-- End Header -->
 
-
-    <!-- ContainerSlider -->
+    <!-- Main Slider -->
     <section>
         <div id="containerSlider">
             <div id="slidingImage"> <img src="img/slider.jpg" alt="image1"> </div>
@@ -98,7 +97,61 @@
             <div id="slidingImage"> <img src="img/slider.jpg" alt="image1"> </div>
         </div>
     </section>
-    <!-- End ContainerSlider -->
+    <!-- End Main Slider -->
+
+    <!-- Card Slider -->
+    <div class="slider-container">
+        <button class="slider-btn prev-btn" onclick="moveLeft()">&#10094;</button>
+        <div class="slider-wrapper">
+            <h2 class="title">Discover the Best Dress</h2>
+            <div class="slider">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="img/m1.jpg" alt="Product 1" class="product-image">
+                    <h2 class="dress-title">Shirt</h2>
+                    <span class="dress-price">0$</span>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="img/m1.jpg" alt="Product 2" class="product-image">
+                    <h2 class="dress-title">Shirt</h2>
+                    <span class="dress-price">0$</span>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="img/m1.jpg" alt="Product 3" class="product-image">
+                    <h2 class="dress-title">Shirt</h2>
+                    <span class="dress-price">0$</span>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <img src="img/m1.jpg" alt="Product 4" class="product-image">
+                    <h2 class="dress-title">Shirt</h2>
+                    <span class="dress-price">0$</span>
+                </div>
+                <!-- Card 5 -->
+                <div class="card">
+                    <img src="img/m1.jpg" alt="Product 5" class="product-image">
+                    <h2 class="dress-title">Shirt</h2>
+                    <span class="dress-price">0$</span>
+                </div>
+                <!-- Card 6 -->
+                <div class="card">
+                    <img src="img/m1.jpg" alt="Product 5" class="product-image">
+                    <h2 class="dress-title">Shirt</h2>
+                    <span class="dress-price">0$</span>
+                </div>
+                <!-- Card 7 -->
+                <div class="card">
+                    <img src="img/m1.jpg" alt="Product 5" class="product-image">
+                    <h2 class="dress-title">Shirt</h2>
+                    <span class="dress-price">0$</span>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn next-btn" onclick="moveRight()">&#10095;</button>
+    </div>
+    <!-- End Card Slider -->
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script src="http://code.jquery.com/jquery-3.4.1.min.js"
@@ -107,6 +160,7 @@
     <script src="js/navbar.js"></script>
     <script src="js/slider-main.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/card-slider.js"></script>
     <script src="js/card.js"></script>
 </body>
 
