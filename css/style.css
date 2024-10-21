@@ -213,6 +213,103 @@ section {
 
 
 
+
+
+.box {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    background-color: rgb(182, 52, 52);
+    padding: 5px;
+    font-size: 7px;
+    font-weight: 600;
+    border-radius: 50%;
+    z-index: 98;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+}
+
+h2.title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--second-color);
+}
+
+.shop-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.dress-box {
+    position: relative;
+    background: var(--second-bg-color);
+    padding: 15px;
+    border-radius: 10%;
+}
+
+.dress-box img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.pic {
+    overflow: hidden;
+}
+
+.pic:hover img {
+    border-radius: 5%;
+    transform: scale(1.27);
+}
+
+.dress-img {
+    transition: 0.4s;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.dress-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--second-color);
+}
+
+.dress-price {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.add-cart {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.add-cart:hover {
+    background-color: rgb(80, 80, 80);
+}
+
 .cart {
     position: fixed;
     top: 0;
