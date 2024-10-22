@@ -593,6 +593,46 @@ h2.title {
 
 
 
+
+
+.container-banner {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0rem 20rem;
+}
+
+.banner {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner img:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Move-topBtn {
     position: fixed;
     bottom: 40px;
@@ -691,6 +731,12 @@ h2.title {
         /* Show 3 cards in mobile */
     }
 
+    .container-banner {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: 50px auto;
+
+    }
 }
 
 
@@ -701,6 +747,11 @@ h2.title {
         font-size: 50%;
     }
 
+    .container-banner {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: 50px auto;
 
+    }
 
 }
