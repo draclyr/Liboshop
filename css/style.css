@@ -517,6 +517,14 @@ h2.title {
     /* Ensure cards don't shrink */
 }
 
+.card a {
+    color: var(--second-color);
+}
+
+.card a:hover {
+    opacity: 0.7;
+}
+
 .card img {
     width: 100%;
     height: auto;
@@ -556,6 +564,26 @@ h2.title {
 
 .next-btn {
     right: 10px;
+}
+
+.title,
+.SeeMore {
+    display: inline-block;
+}
+
+.SeeMore {
+    background: var(--second-bg-color);
+    color: var(--second-color);
+    font-size: 1.5rem;
+    float: right;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.SeeMore:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease;
 }
 
 
