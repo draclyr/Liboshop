@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;0,900;1,100;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
 /* Prerequisite */
@@ -41,7 +41,7 @@
 }
 
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -379,7 +379,8 @@ h2.title {
 .card-quantity {
     border: 1px solid rgba(0, 0, 0, 0.1);
     outline: none;
-    width: 2.4rem;
+    width: 3rem;
+    margin-left: 5px;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -692,7 +693,6 @@ h2.title {
     text-align: center;
     font-size: 14px;
     margin-top: 30px;
-    font-weight: 600;
 }
 
 /* End Footer */
