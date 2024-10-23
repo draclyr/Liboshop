@@ -1,0 +1,22 @@
+.all-dress {
+    margin-top: 5rem;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.pagination a {
+    color: var(--second-color);
+    background: var(--second-bg-color);
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 -3px;
+}
+
+.pagination a:hover {
+    opacity: 0.7;
+}
