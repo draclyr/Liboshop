@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liboshop</title>
+    <link rel="icon" href="img/Icon.jpeg">
+    <link rel="stylesheet" href="css/single.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main-slider-1.css">
+    <link rel="stylesheet" href="css/main-slider-2.css">
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <div class="nav">
+        <div class="header">
+            <a href="#" class="brand">
+                <h2>Hesam Shahmoradi</h2>
+            </a>
+            <nav class="navbar">
+                <a href="#home"><i class="fas fa-home"></i>HOME</a>
+                <a href="#Dress"><i class="fas fa-tshirt"></i>CLOTHING</a>
+                <a href="#Accessories"><i class="fas fa-hat-cowboy"></i>ACCESSORIES</a>
+                <a href="#contact"><i class="fas fa-users"></i>ABOUT</a>
+            </nav>
+            <div class="icons">
+                <a class="nav-link" href="#" onclick="switchTheme()">
+                    <i class="fa fa-moon dark-icon"></i>
+                    <i class="fa fa-sun light-icon"></i>
+                </a>
+                <a class="nav-link" href="#">
+                    <i class="fa fa-search" id="search-btn"></i>
+                </a>
+                <a class="nav-link" href="#">
+                    <i class="fas fa-user-circle userIcon"></i>
+                </a>
+
+                <a class="nav-link">
+                    <div class="cart-count">0</div>
+                    <i name="cart" class="fa fa-shopping-cart" id="cart-icon"></i>
+                </a>
+
+                <a class="nav-link" href="#">
+                    <i class="fas fa-bars" id="menu-btn"></i>
+                </a>
+            </div>
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+            <div class="cart">
+                <div class="cart-title">CART ITEMS</div>
+                <div class="cart-content">
+                    <!---
+                      <div class="cart-box">
+                        <img src="img/n1.jpg" class="cart-img">
+                        <div class="detail-box">
+                          <div class="cart-dress-title">Basic Blue Shit</div>
+                          <div class="price-box">
+                            <div class="cart-price">Rs.799</div>
+                            <div class="cart-amt">Rs.799</div>
+                          </div>
+                          <input type="number" value="1" class="card-quantity">
+                        </div>
+                        <i name="trash" class="cart-remove"></i>
+                      </div>
+                      --->
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button class="btn-buy"><i class='fas fa-credit-card'></i> Place Order</button>
+                <i name="close" class="fas fa-close" id="cart-close"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Single -->
+    <div class="dress-box">
+        <div class="container">
+            <div class="single-product">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="product-image">
+                            <div class="product-image-main">
+                                <div class="pic">
+                                    <img src="img/m1.jpg" alt="" id="product-main-image" class="dress-img">
+                                </div>
+                            </div>
+                            <div class=" product-image-slider">
+                                <img src="img/m1.jpg" alt="" class="image-list">
+                                <img src="img/m2.jpg" alt="" class="image-list">
+                                <img src="img/m3.jpg" alt="" class="image-list">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="breadcrumb">
+                            <span><a href="#">Home</a></span>
+                            <span><a href="#">Product</a></span>
+                            <span class="active">T-shirt</span>
+                        </div>
+
+                        <div class="product">
+                            <div class="dress-title">
+                                <h2>Half Sleve T-shirt for Men</h2>
+                            </div>
+                            <div class="product-rating">
+                                <span><i class="bx bxs-star"></i></span>
+                                <span><i class="bx bxs-star"></i></span>
+                                <span><i class="bx bxs-star"></i></span>
+                                <span><i class="bx bxs-star"></i></span>
+                                <span><i class="bx bxs-star"></i></span>
+                                <span class="review">(1540 Review)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="dress-price">$140.00</span>
+                            </div>
+
+                            <div class="product-details">
+                                <h3>Description</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est magnam
+                                    quibusdam
+                                    maiores
+                                    sit perferendis minima cupiditate iusto earum repudiandae maxime vitae nostrum,
+                                    ea
+                                    cumque
+                                    iste ipsa hic commodi tempore.</p>
+                            </div>
+                            <div class="product-size">
+                                <h4>Size</h4>
+                                <div class="size-layout">
+                                    <input type="radio" name="size" value="S" id="1" class="size-input">
+                                    <label for="1" class="size">S</label>
+
+                                    <input type="radio" name="size" value="M" id="2" class="size-input">
+                                    <label for="2" class="size">M</label>
+
+                                    <input type="radio" name="size" value="L" id="3" class="size-input">
+                                    <label for="3" class="size">L</label>
+
+                                    <input type="radio" name="size" value="XL" id="4" class="size-input">
+                                    <label for="4" class="size">XL</label>
+
+                                    <input type="radio" name="size" value="XXL" id="5" class="size-input">
+                                    <label for="5" class="size">XXL</label>
+                                </div>
+                            </div>
+                            <div class="product-color">
+                                <h4>Color</h4>
+                                <div class="color-layout">
+                                    <input type="radio" name="color" value="black" class="color-input">
+                                    <label for="black" class="black"></label>
+                                    <input type="radio" name="color" value="red" class="color-input">
+                                    <label for="red" class="red"></label>
+
+                                    <input type="radio" name="color" value="blue" class="color-input">
+                                    <label for="blue" class="blue"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-cart" name="cart">
+                        <button><i class='bx bxs-cart'></i> Add To Crad</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Single -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="social-icons-container">
+            <div class="share">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+            <div class="mr-draclyr">
+                © 2024 create by Hesam Shahmoradi "Draclyr"
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/add-card.js"></script>
+    <script src="js/single-page.js"></script>
+</body>
+
+</html>
