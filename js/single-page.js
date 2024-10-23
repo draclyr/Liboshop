@@ -21,3 +21,5 @@ sliderImageList[3].onclick = function () {
     sliderMainImage.src = sliderImageList[3].src;
     console.log(sliderMainImage.src);
 };
+
+/* create by Hesam Shahmoradi (Draclyr) */

@@ -23,3 +23,5 @@ function moveRight() {
         slider.style.transform = `translateX(-${cardWidth * currentSlide}px)`;
     }
 }
+
+/* create by Hesam Shahmoradi (Draclyr) */

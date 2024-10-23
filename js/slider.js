@@ -9,3 +9,5 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
     });
 });
+
+/* create by Hesam Shahmoradi (Draclyr) */

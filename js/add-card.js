@@ -130,3 +130,5 @@ function updateTotal() {
         cartCount.style.display = "block";
     }
 }
+
+/* create by Hesam Shahmoradi (Draclyr) */
